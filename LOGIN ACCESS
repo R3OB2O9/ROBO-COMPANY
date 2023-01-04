@@ -1,0 +1,134 @@
+# ROBO-COMPANY
+#Programming for HTML
+
+<!DOCTYPE html>
+<html>
+    <head>
+         <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="ie-edge">
+           <meta name="viewport" content="width=device-width,
+           initial-scale=1.0">
+        <title>ROBO ACADEMY</title>
+    </head>
+    <body ></body>
+    <body>
+
+        <h1>Registration Form</h1>
+
+        <div id="reg-form">
+            <form action="script.php" method="">
+                <label for=" first-name">First Name:</label>
+                <input type="text"name="first-name" placeholder="Arrya" required>
+
+                <label for=" last-name">Last Name:</label>
+                <input type="text"name="last-name" placeholder="paul" required>
+            </form>
+
+
+
+
+        </div>
+
+
+        <div>
+            <label for="gender-choice">Male</label>
+            <input type="radio" name="gender-male" value="chioce-1">
+
+            <label for="gender-choice">Female</label>
+            <input type="radio" name="gender-female" value="chioce-2">
+
+            <label for="gender-choice">other</label>
+            <input type="radio" name="other" value="chioce-3">
+
+
+
+
+
+
+
+        </div>
+
+
+
+        <div>
+            <label for="email">Email</label>
+            <input type="email" placeholder="xyz23@gmail.com" >  
+            
+            <label for="password">Password</label>
+            <input type="password" name="password" > 
+
+
+
+
+        </div>
+
+        <div>
+            <label for="month">Birthday</label>
+            <select name="Month">
+                <option value="0" selected disabled>Month</option>
+                <option value="Jan">January</option>
+                <option value="Feb">Febuary</option>
+                <option value="March">March</option>
+                <option value="April">April</option>
+                <option value="May">May</option>
+                <option value="June">June</option>
+                <option value="July">July</option>
+                <option value="Aug">August</option>
+                <option value="Sept">September</option>
+                <option value="Oct">October</option>
+                <option value="Nov">Novemeber</option>
+                <option value="Dec">Decemeber</option>
+
+
+
+            </select>
+
+
+
+
+
+        </div>
+        <label for="agree">I agree for al the conditions of the form</label>
+        <input type="checkbox" name="agree">
+              <button type="submit">Submit</button>
+            <style type="text/css"> 
+    
+         
+
+             
+            table{
+                border: 1px solid black;
+
+            }
+            
+            td{
+                border: 1px solid black;
+            }
+
+
+          </style>
+
+
+        <table>
+            <thead>
+                <th>Skill</th>
+                <th>Career</th>
+                <th>Education</th>
+            </thead>
+
+            <tr>
+                    <td>Computer</td>
+                    <td>Cyber Security</td>
+                    <td>Zion Educational System Inc.</td>
+
+
+            </tr>
+        </table>
+
+
+
+
+
+
+    </body>
+</html>
